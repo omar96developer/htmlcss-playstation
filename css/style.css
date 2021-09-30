@@ -19,31 +19,8 @@ footer {
 p {
     color: #727272;
 }
-.section_base {
 
-}
-.section_medium {
 
-}
-.section_large {
-
-}
-.section_title {
-    margin-bottom:
-}
-.section_title.section_title_small {
-    margin-bottom:
-}
-.section_subtitle {
-    margin-bottom:
-}
-.section_text {
-    margin-bottom:
-}
-
-.section_main {
-    padding-top: ;
-}
 .btn_1 {
     border-radius: 20px;
     background-color: #363636;
@@ -69,10 +46,13 @@ p {
     background-color: white;
     color: black;
 }
+
 /* NAVBAR */
+
 .sony_logo {
     height: 12px;
 }
+
 /* MAIN */
 
 .section_1 {
@@ -82,21 +62,32 @@ p {
     background-size: cover;
     background-position: center;
 }
-.section_3 {
-    background-color: #bebcbb;
-
-}
-.section_4 {
-    background-color: #161c3b;
-    
-}
-.list_img {
-    border-radius: 15px;
-}
 .section_2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     padding-top: 270px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.section_3 {
+    background-color: #bebcbb;
+}
+.section_4 {
+    background-color: #161c3b;
+}
+.list_img {
+    border-radius: 15px;
+}
+
+/* FOOTER */
+
+.section_6 {
+    background-color: #00439c; 
+}
+.img_logo_footer {
+    width: 103px;
+}
+.img_globe_footer {
+    width: 20px;
+    margin-right: 10px;
 }
