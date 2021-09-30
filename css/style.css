@@ -16,8 +16,9 @@ h5 {
 footer {
     font-size: 0.9rem;
 }
-
-
+p {
+    color: #727272;
+}
 .section_base {
 
 }
@@ -45,9 +46,25 @@ footer {
 }
 .btn_1 {
     border-radius: 20px;
-    background-color: #727272;
+    background-color: #363636;
+    color: white;
+}
+.btn_2 {
+    border-radius: 20px;
+    background-color: #cd3d0f;
     color: white;
 }
 .sony_logo {
     height: 12px;
+}
+.section_1 {
+    background-image: url(../img/jumbo-bg.png);
+    padding-top: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* SECTION TWO/ LIST IMAGES */
+.list_img {
+    border-radius: 15px;
 }
