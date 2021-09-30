@@ -54,6 +54,11 @@ p {
     background-color: #cd3d0f;
     color: white;
 }
+.btn_3 {
+    border-radius: 20px;
+    background-color: #2d64e6;
+    color: white;
+}
 .sony_logo {
     height: 12px;
 }
