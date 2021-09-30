@@ -43,3 +43,11 @@ footer {
 .section_main {
     padding-top: ;
 }
+.btn_1 {
+    border-radius: 20px;
+    background-color: #727272;
+    color: white;
+}
+.sony_logo {
+    height: 12px;
+}
