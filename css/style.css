@@ -59,9 +59,12 @@ p {
     background-color: #2d64e6;
     color: white;
 }
+/* NAVBAR */
 .sony_logo {
     height: 12px;
 }
+/* MAIN */
+
 .section_1 {
     background-image: url(../img/jumbo-bg.png);
     padding-top: 270px;
@@ -69,7 +72,14 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* SECTION TWO/ LIST IMAGES */
+
 .list_img {
     border-radius: 15px;
+}
+.section_2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    padding-top: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
