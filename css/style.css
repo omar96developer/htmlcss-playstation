@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: calc(2.5rem + .9vw);
+}
+h3 {
+    font-size: calc(2.3rem + .6vw);
+}
+h4 {
+    font-size: calc(1.3rem + .3vw);
+}
+h5 {
+    font-size: 0.9rem;
+}
+footer {
+    font-size: 0.9rem;
+}
+
+
+.section_base {
+
+}
+.section_medium {
+
+}
+.section_large {
+
+}
+.section_title {
+    margin-bottom:
+}
+.section_title.section_title_small {
+    margin-bottom:
+}
+.section_subtitle {
+    margin-bottom:
+}
+.section_text {
+    margin-bottom:
+}
+
+.section_main {
+    padding-top: ;
+}
