@@ -64,6 +64,11 @@ p {
     background-color: #d9dadc;
     color: #2d64e6;
 }
+.btn_5 {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
 /* NAVBAR */
 .sony_logo {
     height: 12px;
@@ -79,9 +84,12 @@ p {
 }
 .section_3 {
     background-color: #bebcbb;
+
+}
+.section_4 {
+    background-color: #161c3b;
     
 }
-
 .list_img {
     border-radius: 15px;
 }
