@@ -49,13 +49,22 @@ p {
 
 
 /* NAVBAR */
-
+.nav_margin {
+    margin-top: 32px;
+}
 .sony_logo {
     height: 12px;
 }
+.nav_chevron {
+    height: 10px;
+    transform: translateY(5px);
+    padding-right: 10px;
+}
 
 /* MAIN */
-
+.main_margin {
+    margin-top: 108px;
+}
 .section_1 {
     background-image: url(../img/jumbo-bg.png);
     padding-top: 270px;
@@ -79,6 +88,9 @@ p {
 .list_img {
     border-radius: 15px;
 }
+.img_hero {
+    width: 310px
+}
 
 /* FOOTER */
 
@@ -92,15 +104,11 @@ p {
     width: 20px;
     margin-right: 10px;
 }
-.nav_chevron {
-    height: 10px;
-    transform: translateY(5px);
-    padding-right: 10px;
+footer li {
+    line-height: 30px;
 }
 
-.img_hero {
-    width: 310px
-}
+
 @media screen and (min-width: 768px) {
 
     .img_hero {
