@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 108px;
 }
 h2 {
     font-size: calc(2.3rem + .9vw);
@@ -21,36 +22,64 @@ p {
 }
 
 
+/* BUTTONS */
+
+
 .btn_1 {
     border-radius: 20px;
     background-color: #363636;
     color: white;
+    transition: all 0.5s;
+}
+.btn.btn_1:hover {
+    color:#2d64e6;
+    border-radius: 0;
 }
 .btn_2 {
     border-radius: 20px;
     background-color: #cd3d0f;
     color: white;
+    transition: all 0.5s;
+}
+.btn.btn_2:hover {
+    color: black;
+    border-radius: 0;
 }
 .btn_3 {
     border-radius: 20px;
     background-color: #2d64e6;
     color: white;
+    transition: all 0.5s;
+}
+.btn.btn_3:hover {
+    color:black;
+    border-radius: 0;
 }
 .btn_4 {
     border-radius: 20px;
     background-color: #d9dadc;
     color: #2d64e6;
+    transition: all 0.5s;
+}
+.btn.btn_4:hover {
+    color: white;
+    border-radius: 0;
 }
 .btn_5 {
     border-radius: 20px;
     background-color: white;
     color: black;
+    transition: all 0.5s;
+}
+.btn.btn_5:hover {
+    color: #0b2edd;
+    border-radius: 0;
 }
 
-body {
-    padding-top: 108px;
-  }
+
 /* NAVBAR */
+
+
 .nav_margin {
     margin-top: 32px;
 }
@@ -65,13 +94,13 @@ body {
 .navbar-nav .nav-link{
     color: black !important;
     }
-    .navbar-nav .nav-link:hover {
-        color: #0d6efd !important;
-    }
-    .navbar-nav .pipo:hover {
-        color: #0d6efd !important;
-    }
+.navbar-nav .nav-link:hover{
+    color: #0d6efd !important;
+}
+
+
 /* MAIN */
+
 
 .section_1 {
     background-image: url(../img/jumbo-bg.png);
@@ -99,19 +128,30 @@ body {
 .img_hero {
     width: 310px
 }
+.border_img {
+    transition: all 0.1s linear;   
+}
 .border_img:hover {
     border: 3px solid #0d6efd;
     border-radius: 15px;
-    padding: 0 1px
+    padding: 0 1px;
+    transform: translateY(-15px); 
 }
 .opacity_img {
     opacity: 0.5;
 }
 .opacity_img:hover {
     opacity: 1;
+    border-bottom:3px solid #0d6efd;
 }
+
+
 /* FOOTER */
 
+
+footer li {
+    line-height: 30px;
+}
 .section_6 {
     background-color: #00439c; 
 }
@@ -122,21 +162,24 @@ body {
     width: 20px;
     margin-right: 10px;
 }
-footer li {
-    line-height: 30px;
+.social img {
+    transition: all 0.5s;
+}
+.social:hover img{ 
+    border-radius: 50%;
 }
 
 
-@media screen and (min-width: 768px) {
+/* MEDIA QUERY */
 
+
+@media screen and (min-width: 768px) {
     .img_hero {
         width: 410px
     }
    
 }
-
 @media screen and (min-width: 992px) {
-
     .img_hero {
         width: 530px
     }
@@ -144,9 +187,7 @@ footer li {
        margin-left: 250px
    }
 }
-
 @media screen and (min-width: 1200px) {
-
     .img_hero {
         width: 250px
     }
